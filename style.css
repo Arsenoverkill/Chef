@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+button{
+    border: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header h3{
+    color: #333;
+font-size: 23px;
+font-weight: 600;
+margin-top: 30px;
+}
+.links{
+    margin-right: 200px;
+    margin-top: 30px;
+}
+.links a{
+    text-decoration: none;
+    margin: 0 20px;
+}
+.a{
+    color: #5FB848;
+       font-size: 17px;
+    font-weight: 500;
+}
+.aa{
+    font-size: 17px;
+font-weight: 500;
+color: #2C3847;
+}
+.nav {
+    display: flex;
+    margin-top: 23px;
+
+}
+.nav img{
+    margin: 18px 20px 0 0;
+    width: 70px;
+    height: 23px;
+}
+.nav button{
+    width: 160px;
+    height: 54px;
+    border-radius: 27px;
+background: #494949;
+color: var(--white, #FFF);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+/* HERO */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.information h1{
+    color: var(--black, #181D19);
+    font-size: 60px;
+    font-weight: 670;
+}
+.eat{
+    color: #5FB848;
+font-size: 60px;
+font-weight: 770;
+}
+.food-img img{
+    width: 700px;
+}
+.information p{
+    color: var(--black, #181D19);
+font-size: 24px;
+font-weight: 200;
+line-height: 34px; /* 141.667% */
+margin: 35px 0;
+}
+.information button{
+    width: 180px;
+height: 55px;
+border-radius: 50px;
+background: var(--green-gradient, linear-gradient(180deg, #64BB47 0%, #2C9553 100%));
+color: var(--white, #FFF);
+font-size: 18px;
+font-weight: 200;;
+}
+/* HERO */
+/* LOGO */
+.heading h1{
+    color: #151414;
+    font-size: 45px;
+    font-weight: 520;
+    text-align: center;
+}
+.heading p{
+    color: #3B433E;
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+margin-top: 17px;
+}
+.logo-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.logo-1 img{
+margin-left: 70px;
+}
+.logo-1 h2{
+    color: var(--black, #181D19);
+text-align: center;
+font-size: 28px;
+font-weight: 570;
+margin: 25px 0;
+}
+.logo-1 p{
+    text-align: center;
+font-size: 18px;
+font-weight: 150;
+line-height: 28px; /* 155.556% */
+background: var(--button-gradient, linear-gradient(180deg, #39463F 0%, #101612 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.numbers {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.numbers h1{
+     color: #000;
+text-align: center;
+font-size: 40px;
+font-weight: 700;
+margin: 0 150px;
+margin-left: 165px;
+}
+.numbers p{
+    color: #545454;
+text-align: center;
+font-size: 17px;
+font-weight: 260;
+line-height: 70px;
+}
+/* LOGO */
+/* ABOUT */
+#about{
+    margin-top: 120px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about h1{
+    color: #151414;
+font-size: 54px;
+font-weight: 530;
+}
+.about p{
+    color: var(--black, #4f514f);
+    font-size: 22px;
+    line-height: 34px; /* 154.545% */
+    margin: 60px 0;
+}
+.about button{
+    color: var(--white, #FFF);
+font-size: 24px;
+font-weight: 400;
+border-radius: 50px;
+background: var(--green-gradient, linear-gradient(180deg, #64BB47 0%, #2C9553 100%));
+width: 210px;
+height: 64px;
+}
+.img-1{
+    position: absolute;
+    right: 400px;
+    bottom: -1005px;
+}
+.img-2{
+    position: absolute;
+    right: 400px;
+    top: 1770px;
+}
+.img-3{
+    position: relative;
+}
+/* ABOUT */
+/* VEGETABLES */
+#vegetables{
+    margin-top: 180px;
+}
+.vegetables{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img-6{
+    position: relative;
+}
+.img-5{
+    position: absolute;
+    right: 750px;
+}
+.vegetables h1{
+    color: #151414;
+font-size: 54px;
+font-weight: 550;
+}
+.vegetables p{
+    color: var(--black, #4f514f);
+    font-size: 22px;
+    line-height: 34px; /* 154.545% */
+    margin: 50px 0;
+}
+.vegetables button{
+    width: 210px;
+height: 64px;
+border-radius: 50px;
+background: var(--green-gradient, linear-gradient(180deg, #64BB47 0%, #2C9553 100%));
+color: var(--white, #FFF);
+font-size: 24px;
+font-weight: 400;
+}
+/* VEGETABLES */
+/* CHEF */
+#chef{
+    margin-top: 100px;
+}
+.chef{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.chef h1{
+    color: #151414;
+font-size: 54px;
+font-weight: 550;
+}
+.chif p{
+    color: var(--black, #4f514f);
+    font-size: 18px;
+    line-height: 34px; /* 154.545% */
+    margin: 40px 0;
+}
+.check{
+    background: black;
+}
+.chef img{
+    margin-right: 15px;
+}
+.p{
+    color: var(--black, #4f514f);
+    font-size: 16px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+/* CHEF */
+/* DISHES */
+#dishes{
+    margin-top: 120px;
+}
+.hh{
+    color: #151414;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 550;
+}
+.ppp{
+    color: var(--black, #4f514f);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+}
+.food-img-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+.food-img-2 img{
+    margin: 20px 20px;
+}
+.food-img-2 h1{
+    text-align: center;
+}
+.food-img-2 p{
+    text-align: center;
+    font-size: 17px;
+    color: #4d4b4b;
+    line-height: 25px;
+    word-spacing: 4px;
+}
+.ob{
+    width: 300px;
+    height: 450px;
+    border: 1px solid #EBEBEB;
+    border-radius: 20px;
+background: #FFF;
+box-shadow: 10px 20px 70px 0px rgba(71, 68, 68, 0.08), -15px -50px 81px 0px #FFF;
+    
+}
+.dishes button{
+    width: 180px;
+height: 54px;
+border-radius: 50px;
+background: var(--green-gradient, linear-gradient(180deg, #64BB47 0%, #2C9553 100%));
+color: var(--white, #FFF);
+font-size: 24px;
+font-weight: 400;
+}
+.bb{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+/* DISHES */
+/* CLIENTS */
+#clients{
+    background: #FCFCFC;
+    margin-top: 120px;
+}
+.vv{
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+    margin-top: 60px;
+}
+.ihp{
+    width: 450px;
+height: 270px;
+padding: 30px 40px;
+stroke-width: 2px;
+border: 1px solid #EBEBEB;
+border-radius: 20px;
+background: #FFF;
+box-shadow: 10px 20px 70px 0px rgba(71, 68, 68, 0.08), -15px -50px 81px 0px #FFF;
+}
+.hp{
+margin-left: 40px;
+}
+.ihp p{
+    color: var(--black, #181D19);
+    margin-top: 30px;
+font-size: 17px;
+font-weight: 250;
+line-height: 30px; /* 166.667% */
+}
+.ava{
+    display: flex;
+    align-items: center;
+}
+.clients h1{
+    color: #151414;
+    text-align: center;
+    font-size: 47px;
+    font-weight: 550;
+}
+.p{
+    color: #888A9A;
+    font-size: 13px;
+    font-weight: 160;
+}
+.arrow{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+/* CLIENTS */
+/* EMAIL */
+#email{
+    margin-top: 100px;
+}
+.email h2{
+text-align: center;
+color: #151414;
+font-size: 33px;
+font-weight: 550;
+}
+.email p{
+    text-align: center;
+    color: #3B433E;
+font-size: 24px;
+font-weight: 150;
+margin-top: 20px;
+}
+.email-b{
+    display: flex;
+    justify-content: center;   
+     margin: 50px 20px;
+}
+.email-b input{
+    width: 300px;
+    height: 50px;
+    border-radius: 165px;
+border: 1px solid #b5b2b2;
+background: #FFF;
+color: #8A8A8A;
+font-size: 17px;
+font-weight: 10;
+display: flex;
+align-items: center;
+padding-left: 20px;
+}
+.email-b button{
+    width: 160px;
+    height: 54px;
+    border-radius: 50px;
+    background: var(--green-gradient, linear-gradient(180deg, #64BB47 0%, #2C9553 100%));
+    color: var(--white, #FFF);
+    font-size: 19px;
+    font-weight: 400;
+}
+/* EMAIL */
+/* FOOTER */
+#footer{
+    margin-top: 120px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{ 
+    color: var(--657582, #21262b);
+font-size: 16px;
+font-weight: 60;
+margin: 15px 0;
+}
+.h2p{
+margin-top: 3px;
+}
+.h2p p{
+    color: var(--657582, #21262b);
+    font-size: 16px;
+    font-weight: 60;
+    margin-top: 40px;
+}
+.end{
+    margin-top: 100px;
+    width: 100%;
+    height: 60px;
+    background: var(--green-gradient, linear-gradient(180deg, #64BB47 0%, #2C9553 100%));
+    color: #FFF;
+font-size: 16px;
+font-weight: 360;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+/* FOOTER */
